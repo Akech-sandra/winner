@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link href="/CSS/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:orange;
+          
+        }
+
+        .blog-post {
+            margin-bottom: 30px;
+        }
+
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+        }
+        .card-title{
+            font-weight: bold;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          }
+      
+          .sidebar {
+            background-color: #f4f4f4;
+            padding: 20px;
+            width: 250px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        
+          }
+      
+          .sidebar h2 {
+            margin-bottom: 10px;
+          }
+      
+          .categories ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+      
+          .categories li {
+            margin-bottom: 5px;
+          }
+      
+          .categories a {
+            color: #333;
+            text-decoration: none;
+          }
+      
+          .categories a:hover {
+            text-decoration: underline;
+          }
+          .nav-link{
+            font-weight: bold;
+          }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>Akech Sandra</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><b>Akech</b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="blog2.html"><b>Blog2</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="wb.html">Web Development</a></li>
+                                <hr>
+                                <li><a class="dropdown-item" href="mt.html">Mentorship & Training</a></li>
+                                <!-- <li>
+                                    <hr class="dropdown-divider">
+                                </li> -->
+                                <hr>
+                                <li><a class="dropdown-item" href="its.html">Technical Support</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container" style="padding: 50px;">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="blog-post">
+                    <h2 class="blog-post-title">A Journey Through the 7 Habits of Highly Effective People</h2>
+                    <p class="blog-post-meta">1st March, 2024 by <a href="about.html">Akech Sandra</a></p>
+                    <img src="/7-habits.jpg" alt="Blog Post Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar" style="padding: 80px;">
+        <h2>Categories</h2>
+        <div class="categories">
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">GIT</a></li>
+            <li><a href="#">BOOTSTRAP</a></li>
+          </ul>
+        </div>
+      </div>
+    <p>
+        Embarking on a journey of leadership and personal development through the lens of
+        <b>Stephen
+            Covey's</b> "The 7 Habits of Highly Effective People" has been nothing short of
+        transformative. This
+        class has not only equipped me with practical tools for personal growth but has also
+        fundamentally shifted my perspective on what it means to be truly effective in both
+        my
+        personal
+        and professional life.
+        <br><br>
+    </p>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h11.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The first habit</h5>
+                    <p class="card-text">"Be Proactive," taught me the importance of taking
+                        responsibility
+                        for
+                        my
+                        actions and choices. Instead of reacting to circumstances, I learned to take control
+                        of
+                        my life
+                        and make proactive decisions that align with my values and goals. This shift in
+                        mindset
+                        has
+                        empowered me to approach challenges with a sense of ownership and agency, leading to
+                        more
+                        positive outcomes.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated  1 day ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The second habit</h5>
+                    <p class="card-text"> "Begin with the End in Mind," challenged me to clarify my
+                        vision
+                        and set
+                        meaningful goals. By envisioning my ideal future and working backwards to create a
+                        roadmap, I
+                        have been able to prioritize my time and energy on what truly matters, leading to
+                        greater
+                        clarity and direction in my life.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 1 day ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The third habit</h5>
+                    <p class="card-text"> "Put First Things First," taught me the importance of
+                        prioritizing
+                        my time and
+                        energy on activities that align with my values and goals. By focusing on important
+                        but not
+                        urgent tasks, I have been able to make significant progress towards my long-term
+                        goals, rather
+                        than getting bogged down by the demands of the moment.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 hours ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h44.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The forth habit</h5>
+                    <p class="card-text">"Think Win-Win," emphasized the importance of seeking
+                        mutual
+                        benefit in all
+                        interactions. By approaching conflicts and negotiations with a mindset of
+                        collaboration and
+                        cooperation, I have been able to build stronger relationships and create win-win
+                        outcomes that
+                        benefit all parties involved.
+                    </p>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 2 hours ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h55.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The fifth habit</h5>
+                    <p class="card-text">"Seek First to Understand, Then to Be Understood," taught me
+                        the
+                        power of
+                        empathy and listening in effective communication. By taking the time to truly
+                        understand the
+                        perspectives of others, I have been able to build trust and rapport, leading to more
+                        meaningful
+                        and productive conversations.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 1 hour ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The sixth habit</h5>
+                    <p class="card-text">"Synergize," highlighted the importance of embracing
+                        diversity and
+                        working
+                        collaboratively to achieve common goals. By leveraging the strengths and
+                        perspectives of others,
+                        I have been able to achieve outcomes that far exceed what I could have accomplished
+                        alone.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 39 mins ago</small>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="/h7.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">The seventh habit</h5>
+                    <p class="card-text">"Sharpen the Saw," reminded me of the importance
+                        of
+                        self-care and
+                        continuous improvement. By taking the time to invest in my physical, mental, and
+                        emotional
+                        well-being, I have been able to show up as a more effective leader and contribute
+                        more
+                        meaningfully to those around me.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 22 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+  <div class="container mt-5">
+    <h2>Latest Comments</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Atim Winnie</h5>
+            <p class="card-text">Overall, my experience in this leadership and personal development class has been
+                truly
+                life-changing.</p>
+            <p class="card-text"><small class="text-muted">Posted 1 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Katushabe Scovia</h5>
+                <p class="card-text">  I am excited to continue applying these habits and principles as
+                    I continue
+                    on my journey of self-discovery and personal development.</p>
+                <p class="card-text"><small class="text-muted">Posted 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="row mt-3">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Agemo Sarah</h5>
+            <p class="card-text">The 7 Habits of Highly Effective People have not only provided me
+                with a
+                framework for personal growth but have also inspired me to become a more effective
+                leader in all
+                aspects of my life.</p>
+            <p class="card-text"><small class="text-muted">Posted 10 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h4 class="text-uppercase mb-4 font-weight-bold text-warning">Akech Sandra</h4>
+                    <h5>Student, Groundbreaker Talent 2024</h5>
+                    <h5>Python Track</h5>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Services</h5>
+                    <p>
+                        <a href="wb.html" class="text white" style="text-decoration: none;">Web Development</a>
+                    </p>
+                    <p>
+                        <a href="mt.html" class="text white" style="text-decoration: none;">Mentorship &
+                            Training</a>
+                    </p>
+                    <p>
+                        <a href="its.html" class="text white" style="text-decoration: none;">Technical Support</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+                    <p>
+                        <a href="index.html" class="text white" style="text-decoration: none;">Home</a>
+                    </p>
+                    <p>
+                        <a href="about.html" class="text white" style="text-decoration: none;">About</a>
+                    </p>
+                    <p>
+                        <a href="blog.html" class="text white" style="text-decoration: none;">Blog1</a>
+                    </p>
+                    <p>
+                        <a href="blog2.html" class="text white" style="text-decoration: none;">Blog2</a>
+                    </p>
+                    <p>
+                        <a href="gallery.html" class="text white" style="text-decoration: none;">Gallery</a>
+                    </p>
+                    <p>
+                        <a href="contact.html" class="text white" style="text-decoration: none;">Contact</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>Kampala, k'la 2333, UG
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i>akesandra659@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i>0783469822
+                    </p>
+                    <!-- <p>
+                        <i class="fas fa-print mr-3"></i>New York, NY 2333, UG
+                    </p> -->
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>Copyright @2024 All rights reserved by:
+                        <a href="#" style="text-decoration:none;">
+                            <strong class="text-warning">AkeSandra</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" class="btn-floating btn-sm text-white"
+                                    style="font-size: 23px"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/home" class="btn-floating btn-sm text-white"
+                                    style="font-size: 23px"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.google.co.uk/" class="btn-floating btn-sm text-white"
+                                    style="font-size: 23px"><i class="fab fa-google-plus"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/" class="btn-floating btn-sm text-white"
+                                    style="font-size: 23px"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/" class="btn-floating btn-sm text-white"
+                                    style="font-size: 23px"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="/CSS/bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
