@@ -4,75 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLOG</title>
-    <link href="./css/bootstrap.css" rel="stylesheet">
+    <title>HOME</title>
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color:orange;
-        }
-
-        .blog-post {
-            margin-bottom: 30px;
-        }
-
-        .blog-post img {
-            max-width: 100%;
-            height: auto;
-        }
-        .card-title{
+        .nav-link {
             font-weight: bold;
         }
-        
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-  
-      .sidebar {
-        background-color: #f4f4f4;
-        padding: 20px;
-        width: 250px;
-        position: absolute;
-        top: 0;
-        left: 0;
-    
-      }
-  
-      .sidebar h2 {
-        margin-bottom: 10px;
-      }
-  
-      .categories ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-  
-      .categories li {
-        margin-bottom: 5px;
-      }
-  
-      .categories a {
-        color: #333;
-        text-decoration: none;
-      }
-  
-      .categories a:hover {
-        text-decoration: underline;
-      }
-      .nav-link{
-        font-weight: bold;
-    }
     </style>
 </head>
 
 <body>
-
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><b>Akech Sandra</b></a>
@@ -89,13 +31,13 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="blog.html"><b>Blog1</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog1</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog2.html">Blog2</a>
@@ -116,148 +58,73 @@
                                 <hr>
                                 <li><a class="dropdown-item" href="mt.html">Mentorship & Training</a></li>
                                 <!-- <li>
-                                <hr class="dropdown-divider">
-                            </li> -->
+                                    <hr class="dropdown-divider">
+                                </li> -->
                                 <hr>
                                 <li><a class="dropdown-item" href="its.html">Technical Support</a></li>
                             </ul>
                         </li>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </div>
     </nav>
-
-
-
-
-    <div class="container" style="padding: 80px;">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <div class="blog-post">
-                    <h2 class="blog-post-title">My Journey through HTML, CSS, Git, and Bootstrap</h2>
-                    <p class="blog-post-meta">1st March, 2024 by <a href="about.html">Akech Sandra</a></p>
-                    <img src="./images/hcgb.avif" alt="Blog Post Image" class="img-fluid">
-                    <p></p>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/ai.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-weight: bold; font-size:50px">Harnessing the Potential of AI and Machine Learning
+                    </h5>
+                    <p style="font-weight: bold; font-size:20px">Leveraging these technologies to drive innovation,
+                        improve efficiency, and create new
+                        opportunities across various industries</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/te.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-weight: bold; font-size:50px">Creating Intelligent Solutions with AI and Machine
+                        Learning</h5>
+                    <p style="font-weight: bold; font-size:20px">Developing algorithms and models that can learn from
+                        data and make decisions or predictions</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/la.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="font-weight: bold; font-size:50px; color:black;">Empowering Businesses with AI and ML
+                        Solutions</h5>
+                    <p style="font-weight: bold; font-size:20px; color:black;">Leveraging advanced technologies to
+                        enhance various aspects of operations, decision-making, and
+                        customer interactions</p>
                 </div>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
- 
-
-
-  <div class="sidebar" style="padding: 80px;">
-    <h2>Categories</h2>
-    <div class="categories">
-      <ul>
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">GIT</a></li>
-        <li><a href="#">BOOTSTRAP</a></li>
-      </ul>
-    </div>
-  </div>
-
-    Entering the world of software engineering can feel like stepping into a vast, unknown territory. However, my
-    experience in an introduction to software engineering class has been nothing short of enlightening, as I delved
-    into the foundational elements of web development: HTML, CSS, Git, and Bootstrap.
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-            <div class="card">
-                <img src="./images/h.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Introduction to HTML</h5>
-                    <p class="card-text">The class began with a deep dive into HTML, the backbone of any web page.
-                        Learning how to structure content
-                        using tags and elements was like learning a new language, but with practice, I began to see the
-                        beauty in its
-                        simplicity and power to create meaningful web pages.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="./images/c.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Introduction to CSS</h5>
-                    <p class="card-text">Next, we explored CSS, the style sheet language that brings HTML to life.
-                        Understanding how to use CSS to add
-                        colors, fonts, and layouts to our web pages was a game-changer. Suddenly, the static HTML pages
-                        we created came
-                        to life with vibrant designs and appealing layouts.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="./images/ggg.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Introduction to Git</h5>
-                    <p class="card-text">One of the most valuable lessons I learned was the importance of version
-                        control with Git. Learning how to track
-                        changes, collaborate with others, and revert to previous versions gave me a sense of security
-                        and control over
-                        my projects that I had never experienced before.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="./images/b.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Introduction to Bootstrap</h5>
-                    <p class="card-text"> Finally, we delved into Bootstrap, a front-end framework that streamlines the
-                        process of designing responsive
-                        and mobile-first websites. Using Bootstrap's pre-designed components and grid system, I was able
-                        to create
-                        professional-looking websites with ease, without having to write extensive CSS code from
-                        scratch.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-      
-
-     
-    
- 
-    <div class="container mt-5">
-        <h2>Latest Comments</h2>
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Akullu Winnifred</h5>
-                <p class="card-text">  Throughout the class, I was constantly challenged to think critically, problem-solve, and collaborate with my
-                    peers. The hands-on projects and assignments not only reinforced the concepts we learned but also gave me the
-                    confidence to apply them in real-world scenarios.</p>
-                <p class="card-text"><small class="text-muted">Posted 11 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container mt-5">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Padro Pio</h5>
-                    <p class="card-text">   As I reflect on my journey through this introduction to software engineering class, I am filled with a sense of
-                        accomplishment and excitement for what lies ahead. Armed with the foundational knowledge of HTML, CSS, Git, and
-                        Bootstrap, I am ready to take on more advanced challenges in the world of software engineering and continue to
-                        grow as a developer.</p>
-                    <p class="card-text"><small class="text-muted">Posted 20 mins ago</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
+    <br><br>
     <footer class="bg-dark text-white pt-5 pb-4">
         <div class="container text-center text-md-left">
             <div class="row text-center text-md-left">
@@ -284,7 +151,7 @@
                         <a href="index.html" class="text white" style="text-decoration: none;">Home</a>
                     </p>
                     <p>
-                        <a href="about.html" class="text white" style="text-decoration: none;">About</a>
+                        <a href="about.html" class="text white" style="text-decoration: none;">About Me</a>
                     </p>
                     <p>
                         <a href="blog.html" class="text white" style="text-decoration: none;">Blog1</a>
@@ -312,10 +179,11 @@
                         <i class="fas fa-phone mr-3"></i>0783469822
                     </p>
                     <!-- <p>
-                <i class="fas fa-print mr-3"></i>New York, NY 2333, UG
-            </p> -->
+                            <i class="fas fa-print mr-3"></i>New York, NY 2333, UG
+                        </p> -->
                 </div>
             </div>
+
             <hr class="mb-4">
             <div class="row align-items-center">
                 <div class="col-md-7 col-lg-8">
@@ -360,8 +228,8 @@
 
 
 
-    <script src="./js/bootstrap.bundle.js"></script>
 
+    <script src="css/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
